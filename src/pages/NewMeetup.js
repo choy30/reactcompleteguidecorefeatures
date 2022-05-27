@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+
+import NewMeetupForm from "../componenets/meetups/NewMeetupForm";
 
 const NewMeetup = () => {
-  return (
-    <div>NewMeetup</div>
-  )
-}
+	return (
+		<section>
+			<h1>Add New Meetup</h1>
+			<NewMeetupForm />
+		</section>
+	);
+};
 
-export default NewMeetup
+export default NewMeetup;
